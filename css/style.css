@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    background-image: url(/assets/background.jpg);
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.post {
+  height: 500px;
+}
