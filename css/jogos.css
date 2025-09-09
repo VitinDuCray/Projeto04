@@ -4,16 +4,24 @@
     height: 300px;
     width: 400px;
     padding: 20px;
-    border: 3px solid var(--azul-dark);
+    padding-top: 10px;
+    border: 5px solid var(--azul-semidark);
     border-radius: 25px;
+
 }
 
 .jogo {
     align-items: center;
     height: 50px;
     border: 3px solid var(--azul-dark);
+    background-color: var(--azul-atlantis);
     border-radius: 25px;
     margin-bottom: 10px;
+}
+
+.jogos h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .resultado {
@@ -24,6 +32,7 @@
 }
 
 .data {
+    text-align: center;
     padding: 2px;
     font-size: 11px;
 }

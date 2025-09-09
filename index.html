@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/jogos.css">
+    <link rel="stylesheet" href="css/jogadores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
@@ -30,47 +31,106 @@
 
     </header>
 
-    <main class="content">
+    <section class="titulo">
         <h1>Atlantis Voleibol Clube</h1>
         <p>Fique por dentro das novidades do clube.</p>
+    </section>
 
-        <section>
+    <div class="container">
+        <main class="content">
 
-            <div class="jogos">
-                <div class="jogo">
-                    <p class="data">18/10</p>
-                    <div class="resultado">
-                        <p class="time">Atlantis</p>
-                        <p class="placar"></p>
-                        <p class="placar">X</p>
-                        <p class="placar"></p>
-                        <p class="time">Marchetti</p>
+            <section class="conteudoPrincipal">
+
+                <div class="jogos">
+
+                    <h1>Jogos</h1>
+
+                    <div class="jogo">
+                        <p class="data">18/10</p>
+                        <div class="resultado">
+                            <p class="time">Atlantis</p>
+                            <p class="placar"></p>
+                            <p class="placar">X</p>
+                            <p class="placar"></p>
+                            <p class="time">Marchetti</p>
+                        </div>
                     </div>
-                </div>
-                <div class="jogo">
-                    <p class="data">26/04</p>
-                    <div class="resultado">
-                        <p class="time">Atlantis</p>
-                        <p class="placar">1</p>
-                        <p class="placar">X</p>
-                        <p class="placar">3</p>
-                        <p class="time">Zenaide</p>
+                    <div class="jogo">
+                        <p class="data">26/04</p>
+                        <div class="resultado">
+                            <p class="time">Atlantis</p>
+                            <p class="placar">1</p>
+                            <p class="placar">X</p>
+                            <p class="placar">3</p>
+                            <p class="time">Zenaide</p>
+                        </div>
                     </div>
+
                 </div>
-            </div>
 
-            <aside class="post"
-                style="transform: scale(0.85); transform-origin: top left; max-height: 1000px; overflow: hidden;">
-                <blockquote class="instagram-media"
-                    data-instgrm-permalink="https://www.instagram.com/p/DI7bduGuNz6/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
-                    data-instgrm-version="14"
-                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                </blockquote>
-                <script async src="//www.instagram.com/embed.js"></script>
-            </aside>
+                <section class="jogadores">
 
-        </section>
-    </main>
+                    <h1>Levantador</h1>
+
+                    <div class="fileira">
+
+                        <div class="jogador">
+                            <h1 class="numero">1
+                            </h1>
+                            <p class="nome">C. Eduardo
+                            </p>
+                            <p class="posicao">LV
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <h1>Ponteiro</h1>
+
+                    <div class="fileira">
+
+                        <div class="jogador">
+                            <h1 class="numero">1
+                            </h1>
+                            <p class="nome">C. Eduardo
+                            </p>
+                            <p class="posicao">LV
+                            </p>
+                        </div>
+                        <div class="jogador">
+                            <h1 class="numero">1
+                            </h1>
+                            <p class="nome">C. Eduardo
+                            </p>
+                            <p class="posicao">LV
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+        </main>
+
+        <aside class="post"
+            style="transform: scale(0.85); transform-origin: top left; max-height: 1000px; overflow: hidden;">
+            <blockquote class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/DI7bduGuNz6/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+                data-instgrm-version="14"
+                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:1px; max-width:540px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+            </blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+
+            <script>
+                window.addEventListener("load", function () {
+                    if (window.instgrm) {
+                        window.instgrm.Embeds.process();
+                    }
+                });
+            </script>
+        </aside>
+    </div>
 
 </body>
 
